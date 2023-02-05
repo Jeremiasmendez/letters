@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 
-.banner {
+header {
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(/img/hero.jpg);
@@ -103,4 +103,16 @@ button:hover span {
 }
 button:hover {
     border: none;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 90px; 
+    background-color: #3c3c3c;
+    color: white;
+}
+footer img {
+    padding: 0 20px;
 }
